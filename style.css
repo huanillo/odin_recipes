@@ -13,6 +13,9 @@ h1{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #6b3a3a;
 }
-button{
-    background-color:#f3b2da;
+
+a,button{
+    background-color:#b3dcf2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
 }
