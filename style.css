@@ -1,36 +1,88 @@
-*{
-    background-color: bisque;
-}
-
+/* Estilos generales */
 body {
+    background-color: bisque;
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    margin: auto;
 }
 
-.p1{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* Estilo de párrafos específicos */
+.p1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
 }
-h1{
+
+/* Títulos principales */
+h1 {
+    font-size: 64px;
     text-align: center;
     margin-top: 8px;
-    margin-left: 8px;;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 8px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #6b3a3a;
-}
-h2{
-    margin-top: 48px;
+    max-width: 800px;
 }
 
-button{
-    background-color:#b3dcf2;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 11px;
+/* Títulos secundarios */
+h2 {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Listas */
+li {
+    max-width: 800px;
     margin: 8px;
 }
-li{
-    margin-top: 8px;
+
+/* Estilos de las imágenes */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: auto;
+    border: 2px solid #78a38d;
+    border-radius: 8px;
 }
-img{
-    padding: 30px;
-    
+
+/* Estilos de las tarjetas (cards) */
+.card {
+    border: 2px solid #78a38d; /* Se corrigió la coma innecesaria */
+    border-radius: 10px;
+    background-color: beige;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    margin: 28px;
+}
+
+/* Estilos de los botones a las recetas */
+.receta button {
+    margin-left: 16px;
+    background-color: #78a38d; /* Color del botón */
+    color: #fff;               /* Texto blanco */
+    padding: 10px 20px;        /* Espaciado interno */
+    border: none;              /* Sin borde */
+    border-radius: 5px;        /* Bordes redondeados */
+    cursor: pointer;          /* Cambio de cursor */
+}
+
+/* Efecto hover en los botones de receta */
+.receta button:hover {
+    background-color: #ff9900; /* Cambio de color en hover */
+}
+
+/* Estilos de los botones a la página principal (home) */
+.home button {
+    background-color: #78a38d; /* Color del botón */
+    color: #fff;               /* Texto blanco */
+    padding: 5px 10px;         /* Espaciado interno */
+    border: none;              /* Sin borde */
+    border-radius: 5px;        /* Bordes redondeados */
+    cursor: pointer;          /* Cambio de cursor */
+}
+
+/* Efecto hover en los botones de la página principal */
+.home button:hover {
+    background-color: #ff9900; /* Cambio de color en hover */
 }
