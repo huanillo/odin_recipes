@@ -69,13 +69,13 @@ img {
 
 /* Efecto hover en los botones de receta */
 .receta button:hover {
-    background-color: #ff9900; /* Cambio de color en hover */
+    background-color: #6b3a3a; /* Cambio de color en hover */
 }
 
 /* Estilos de los botones a la página principal (home) */
 .home button {
     background-color: #78a38d; /* Color del botón */
-    color: #fff;               /* Texto blanco */
+    color: beige;               /* Texto blanco */
     padding: 5px 10px;         /* Espaciado interno */
     border: none;              /* Sin borde */
     border-radius: 5px;        /* Bordes redondeados */
@@ -84,5 +84,5 @@ img {
 
 /* Efecto hover en los botones a página principal */
 .home button:hover {
-    background-color: #ff9900; /* Cambio de color en hover */
+    background-color: #6b3a3a; /* Cambio de color en hover */
 }
