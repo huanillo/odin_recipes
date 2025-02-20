@@ -51,8 +51,8 @@ img {
     border: 2px solid #78a38d; /* Se corrigió la coma innecesaria */
     border-radius: 10px;
     background-color: beige;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    padding: 16px;
     margin: 28px;
 }
 
@@ -82,7 +82,7 @@ img {
     cursor: pointer;          /* Cambio de cursor */
 }
 
-/* Efecto hover en los botones de la página principal */
+/* Efecto hover en los botones a página principal */
 .home button:hover {
     background-color: #ff9900; /* Cambio de color en hover */
 }
