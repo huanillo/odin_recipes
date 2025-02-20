@@ -74,6 +74,7 @@ img {
 
 /* Estilos de los botones a la página principal (home) */
 .home button {
+    margin-top: 8px;
     background-color: #78a38d; /* Color del botón */
     color: beige;               /* Texto blanco */
     padding: 5px 10px;         /* Espaciado interno */
